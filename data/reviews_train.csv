@@ -1,0 +1,16 @@
+review,label
+"Great product, works as expected",positive
+"I love this, highly recommended",positive
+Excellent quality and fast delivery,positive
+"Amazing experience, will buy again",positive
+Very satisfied with my purchase,positive
+"Not good, broke after a week",negative
+"Terrible service, would not recommend",negative
+"Very poor quality, disappointed",negative
+Product did not match the description,negative
+A waste of money,negative
+"It's okay, not great but not bad either",neutral
+"Average quality, nothing special",neutral
+"Decent product, met my expectations",neutral
+"Satisfactory, but could be better",neutral
+"Neither good nor bad, just fine",neutral
