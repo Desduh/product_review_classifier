@@ -1,6 +1,31 @@
 import pandas as pd
 
 # Dados de treinamento (15 revisões, 5 de cada classe)
+# train_data = {
+#     "review": [
+#         "Great product, works as expected",  # Positive
+#         "I love this, highly recommended",  # Positive
+#         "Excellent quality and fast delivery",  # Positive
+#         "Amazing experience, will buy again",  # Positive
+#         "Very satisfied with my purchase",  # Positive
+#         "Not good, broke after a week",  # Negative
+#         "Terrible service, would not recommend",  # Negative
+#         "Very poor quality, disappointed",  # Negative
+#         "Product did not match the description",  # Negative
+#         "A waste of money",  # Negative
+#         "It's okay, not great but not bad either",  # Neutral
+#         "Average quality, nothing special",  # Neutral
+#         "Decent product, met my expectations",  # Neutral
+#         "Satisfactory, but could be better",  # Neutral
+#         "Neither good nor bad, just fine",  # Neutral
+#     ],
+#     "label": [
+#         "positive", "positive", "positive", "positive", "positive",
+#         "negative", "negative", "negative", "negative", "negative",
+#         "neutral", "neutral", "neutral", "neutral", "neutral",
+#     ]
+# }
+
 train_data = {
     "review": [
         "Great product, works as expected",  # Positive
@@ -8,21 +33,21 @@ train_data = {
         "Excellent quality and fast delivery",  # Positive
         "Amazing experience, will buy again",  # Positive
         "Very satisfied with my purchase",  # Positive
-        "Not good, broke after a week",  # Negative
-        "Terrible service, would not recommend",  # Negative
-        "Very poor quality, disappointed",  # Negative
-        "Product did not match the description",  # Negative
-        "A waste of money",  # Negative
         "It's okay, not great but not bad either",  # Neutral
         "Average quality, nothing special",  # Neutral
         "Decent product, met my expectations",  # Neutral
         "Satisfactory, but could be better",  # Neutral
         "Neither good nor bad, just fine",  # Neutral
+        "Great value for the price",  # Neutral
+        "Good, but has some flaws",  # Neutral
+        "Not impressed, expected better",  # Neutral
+        "Terrible service, would not recommend",  # Negative
+        "Not good, broke after a week",  # Negative
     ],
     "label": [
         "positive", "positive", "positive", "positive", "positive",
-        "negative", "negative", "negative", "negative", "negative",
-        "neutral", "neutral", "neutral", "neutral", "neutral",
+        "neutral", "neutral", "neutral", "neutral", "neutral", 
+        "neutral", "neutral", "neutral", "negative", "negative"
     ]
 }
 
